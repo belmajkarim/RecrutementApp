@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">Recrutement</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login_input">Login...</string>
+    <string name="password_input">Password...</string>
+    <string name="login_btn">Login</string>
+    <string name="Aidertitle">Aider :</string>
+    <string name="Aider">Bénévoles et réservistes se mobilisent au quotidien pour soutenir nos aînés, distribuer des repas lors de maraudes et intervenir en centre d’hébergement.</string>
+    <string name="Secourirtitle">Secourir :</string>
+    <string name="Secourir">La Protection Civile mobilise ses équipes et ses équipements pour la mise en place de postes de secours adaptés, en particuliers en cas de crise sanitaire.</string>
+    <string name="Formertitle">Former :</string>
+    <string name="Former">Acteur majeur de la formation aux premiers secours, la Protection Civile forme plus de 110 000 personnes chaque année pour aider à sauver des millions de vies.</string>
+    <string name="titre1Aider">Faire un don à la Protection civile : </string>
+    <string name="parag1aider">Faire un don à la Protection Civile, c’est venir en aide aux populations sinistrées et dans la détresse. En effet, depuis plus de 60 ans, la Protection
+        Civile agit en vue d’assurer la protection des populations civiles en temps de paix comme en temps de crise.
+        Au fil des années, la Protection Civile, forte de l’engagement de ses 32 000 bénévoles, est devenue un acteur
+        incontournable dans l’aide, le secours et la formation des civils dans le seul et unique objectif de sauver des vies. </string>
+
+    <string name="titre2Aider"> Faire un don et lutter contre l’épidémie de Covid-19 :</string>
+    <string name="parag2Aider"></string>
+    <string name="image_contentDescription">image</string>
+    <string name="let_s_get_started_text">Let\'s Get started</string>
+    <string name="intro_text_description">Collaborate and Plan Together Across Multiple Devices on Projemanag’s Minimalist Interface.</string>
+    <string name="sign_in">Connexion</string>
+    <string name="sign_up">Inscription</string>
+
+    <string name="sign_up_description_text">Enter your name, email id and password, to register with us.</string>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+
+
+    <string name="sign_in_description_text">Enter your email and password</string>
+    <string name="nav_my_profile">Mon Profil</string>
+    <string name="nav_sign_out">Déconnexion</string>
+    <string name="update">Mettre à jour</string>
+    <string name="mobile">Telephone</string>
+    <string name="my_profile">Mon profil</string>
+    <string name="Adresse">Adresse</string>
+    <string name="Postal">Code postal</string>
+    <string name="ville">Ville</string>
+    <string name="Home">Home</string>
+    <string name="postuler">Postuler</string>
+    <string name="suiviCandidature">Suivi Candidature</string>
+    <string name="permis">Permis</string>
+    <string name="honneurCasJudiciaire">Cas judiciaire</string>
+    <string name="profession">Profession</string>
+    <string name="diplomeSecourisme">Diplome de secourisme</string>
+    <string name="numeroDiplome">Numéro de Diplome</string>
+    <string name="postPostuler">Poste à postuler</string>
+    <string name="benificierDautresCompetence">Autres compétences</string>
+    <string name="pourquoiNousRejoindre">Pourquoi Nous Rejoindre ?</string>
+    <string name="langueParler">Langue étrangere</string>
+    <string name="remarqueCommentaireQuestion">Commentaire</string>
+    <string name="commentAvezVousConnuProtectionCivil">Comment avez vous connu la protection civile ?</string>
+    <string name="UserManagement">Gestion des utilisateurs</string>
+    <string name="Antennes">Antennes</string>
+    <string name="adressepostale">Adresse postale :</string>
+    <string name="numtelephone">Téléphone</string>
+    <string name="DateNaissance">Date de naissance</string>
+    <string name="diplomePseFormationContinue">Diplome Pse Formation continue</string>
+    <string name="Aidertitle1">Faire un don à la Protection civile :</string>
+    <string name="lastname">Last name</string>
+    <string name="firstname">First Name</string>
+    <string name="pas_encore_inscrit">Pas encore inscrit ?</string>
+    <string name="AntenneName">Nom d\'antenne</string>
+    <string name="AntenneAdress">Adresse d\'antenne</string>
+    <string name="CreateAntenne">Ajouter Antenne</string>
+    <string name="CreateAntennetext">"Remplissez le formulaire ci-dessous pour créer une nouvelle antenne : "</string>
+    <string name="GetAllusers">Afficher tout les utilisateurs</string>
+    <string name="postPostule">Poste postulé</string>
+    <string name="StatutCandidature">Statut</string>
+    <string name="noContent">"Aucune Candidature "</string>
+    <string name="NomAntenne">Nom : </string>
+    <string name="AdresseAntenne">"Adresse Antenne : "</string>
+
+
+</resources>
