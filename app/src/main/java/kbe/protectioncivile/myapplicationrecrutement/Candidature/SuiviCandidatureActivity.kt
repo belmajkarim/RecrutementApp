@@ -34,12 +34,7 @@ class SuiviCandidatureActivity : AppCompatActivity(), CandidatureViewHolder.OnCa
 
                     candidatureRecyclerView.apply {
                         layoutManager = LinearLayoutManager(this@SuiviCandidatureActivity)
-                        adapter = candidatures?.let {
-CandidatureAdapter(
-                                it,
-                                this@SuiviCandidatureActivity
-                            )
-                        }
+                        adapter = candidatures?.let {CandidatureAdapter(it,this@SuiviCandidatureActivity )}
                     }
                 }
             }

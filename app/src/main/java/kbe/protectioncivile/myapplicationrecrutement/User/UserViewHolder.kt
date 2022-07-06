@@ -21,7 +21,8 @@ class UserViewHolder (inflater: LayoutInflater, parent: ViewGroup) :
     private var firstNameTextView: TextView? = itemView.findViewById(R.id.prenom_user)
     private var LastNameTextView: TextView? = itemView.findViewById(R.id.nom_user)
     private var emailTextView: TextView? = itemView.findViewById(R.id.email_user)
-
+    private var formsTextView: TextView? = itemView.findViewById(R.id.form_user)
+    private var postpostulesTextView: TextView? = itemView.findViewById(R.id.postepostuleuser)
     //private var formsTextView: RecyclerView? = itemView.findViewById(R.id.myformsview)
     private var onUserClickedListener: OnUserClickedListener? = null
 
@@ -30,9 +31,16 @@ class UserViewHolder (inflater: LayoutInflater, parent: ViewGroup) :
         this.user = user
         this.onUserClickedListener = onUserClickedListener
 
-        firstNameTextView?.text = user.firstName
+        firstNameTextView?.append("Nom : "+user.firstName)
         LastNameTextView?.text = user.lastName
         emailTextView?.text = user.email
+        for (i in 0 until user.forms.size) {
+            formsTextView?.append(user.forms[i].statusCondidat+"; ")
+        }
+        for (i in 0 until user.forms.size) {
+            postpostulesTextView?.append(user.forms[i].postPostuler+"; ")
+        }
+        //formsTextView?.text = user.forms.first().statusCondidat
 
 
 

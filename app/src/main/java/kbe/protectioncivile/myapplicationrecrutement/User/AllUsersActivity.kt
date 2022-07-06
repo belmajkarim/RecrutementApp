@@ -77,10 +77,10 @@ class AllUsersActivity : AppCompatActivity(), UserViewHolder.OnUserClickedListen
     }
 
     override fun onUserClicked(user: UserResponse?) {
-        if (user != null) {
+        /*if (user != null) {
            /* val intent = Intent(this, UserFormDetailActivity::class.java)
             startActivity(intent)*/
             UserFormDetailActivity.navigateTo(this, user.email)
-        }
+        }*/
     }
 }

@@ -46,7 +46,7 @@
     <string name="permis">Permis</string>
     <string name="honneurCasJudiciaire">Cas judiciaire</string>
     <string name="profession">Profession</string>
-    <string name="diplomeSecourisme">Diplome de secourisme</string>
+    <string name="diplomeSecourisme">Diplome de secourisme :</string>
     <string name="numeroDiplome">Numéro de Diplome</string>
     <string name="postPostuler">Poste à postuler</string>
     <string name="benificierDautresCompetence">Autres compétences</string>
@@ -69,11 +69,28 @@
     <string name="CreateAntenne">Ajouter Antenne</string>
     <string name="CreateAntennetext">"Remplissez le formulaire ci-dessous pour créer une nouvelle antenne : "</string>
     <string name="GetAllusers">Afficher tout les utilisateurs</string>
-    <string name="postPostule">Poste postulé</string>
-    <string name="StatutCandidature">Statut</string>
+    <string name="postPostule">Poste postulé :</string>
+    <string name="StatutCandidature">Statut :</string>
     <string name="noContent">"Aucune Candidature "</string>
     <string name="NomAntenne">Nom : </string>
     <string name="AdresseAntenne">"Adresse Antenne : "</string>
+    <string name="Aidertitle2">Faire un don et lutter contre l’épidémie de Covid-19</string>
+    <string name="parag2aider">Plus que jamais impliquée dans la lutte contre la Covid-19, la Protection Civile a revu ses priorités pour concentrer ses forces sur la réponse à la crise sanitaire.
+
+Renfort apporté aux équipes du SAMU et de pompiers : dès le début de l’épidémie, la Protection Civile a réalisé des interventions de premiers secours, jour et nuit et partout en France.
+Opérations Chardon mises en place : lors d’opérations sans précédent en Europe, et dans le but de décharger les services de réanimation lors de la première vague de Covid-19, les bénévoles de la Protection Civile ont participé aux transferts, à l’embarquement et à l’accompagnement de patients d’une région à une autre à bord de TGV médicalisés / an</string>
+    <string name="Donate">Cliquez ici faire un don à la protection civile !!</string>
+    <string name="ClickSecourir">"Clickez pour demander un dispositif prévisionnel de secours ! "</string>
+    <string name="ClickFormer">"Reservez votre formation maintenant !! "</string>
+    <string name="StatutCandidature1">Statut de candidatures :</string>
+    <string name="PosteCandidature">Poste postulé :</string>
+
+    <string-array name="permisdropdown">
+        <item>A-Moto</item>
+        <item>B-Voiture</item>
+        <item>C-Camio</item>
+        <item>D-Transport</item>
+    </string-array>
 
 
 </resources>

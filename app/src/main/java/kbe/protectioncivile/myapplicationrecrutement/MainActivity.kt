@@ -2,6 +2,7 @@ package kbe.protectioncivile.myapplicationrecrutement
 
 import android.content.Context
 import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import android.view.MenuItem
 import android.widget.Toast
@@ -51,14 +52,14 @@ class MainActivity : AppCompatActivity(),NavigationView.OnNavigationItemSelected
             startActivity(intent)
         }
         secourirCard.setOnClickListener {
-            val intent = Intent(this, SecourirActivity::class.java)
-            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_NEW_TASK)
-            startActivity(intent)
+            val openURL = Intent(Intent.ACTION_VIEW)
+            openURL.data = Uri.parse("https://www.protection-civile.org/dispositif-previsionnel-de-secours/")
+            startActivity(openURL)
         }
         FormerCard.setOnClickListener {
-            val intent = Intent(this, FormerActivity::class.java)
-            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_NEW_TASK)
-            startActivity(intent)
+            val openURL = Intent(Intent.ACTION_VIEW)
+            openURL.data = Uri.parse("https://formations.protection-civile.org/")
+            startActivity(openURL)
         }
     }
 
